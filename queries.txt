@@ -1,0 +1,35 @@
+7 ?- consult(['c:/Users/danah/Desktop/uni/AI Principles - ARTI 401/Lab 3/DanahAlhugail.pl']).
+true.
+
+8 ?- father(faisal,lama).
+true.
+
+9 ?- father(mohammed,khalid).
+true.
+
+10 ?- father(faisal,majed).
+false.
+
+11 ?- mother(dana,lama).
+true.
+
+12 ?- mother(maryam,khalid).
+true.
+
+13 ?- mother(dana,sara).
+false.
+
+14 ?- sister(sara,reem).
+true.
+
+15 ?- sister(sara,abdullah).
+true.
+
+16 ?- brother(abdullah,reem).
+true.
+
+17 ?- brother(abdullah,sara).
+true.
+
+18 ?- brother(abdullah,mohammed).
+false.
